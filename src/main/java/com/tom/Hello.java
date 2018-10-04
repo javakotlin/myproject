@@ -5,13 +5,19 @@ public class Hello {
 //        System.out.println("Hello world");
         Person p = new Person();
         p.hello();
-        int age;
-        age = 22;
-        char c = '中';
-        byte b = 30;
-        float weight = 65.5f;
-        boolean enroll = true;
-        String s = new String("ABCDE");
-        System.out.println(enroll);
+        p.weight = 66.5f;
+        p.height = 1.7f;
+        System.out.println(p.bmi());
+        /*int ag
+        e = 19;
+        Integer age2 = 19;
+        char c = '我';
+        Character c2 = 'A';
+        byte b = 120;
+        float weight = 66.5f;
+        float height = 1.7f;
+        boolean adult = true;
+        boolean enroll = false;
+        String name = "Tom";*/
     }
 }

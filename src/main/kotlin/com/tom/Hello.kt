@@ -2,17 +2,23 @@ package com.tom
 
 fun main(args: Array<String>) {
 //    println("Hello kotlin")
-//    Human().hello()
-    val h = Human()
-    h.hello()
-    var age : Int = 25;
-    age = age.plus(1)
-    val weight = 65.5
-    val enroll : Boolean = true
-    println(age)
+    val h = Human(66.5f, 1.7f)
+    println(h.bmi())
+    /*var age = 19
+    age = 20
+    var weight = 66.5f
+    var name : String
+    name = "Hank"*/
+
 }
 
-class Human {
+class Human(var weight: Float, var height:Float) {
+
+    fun bmi() :Float {
+        val bmi = weight / (height*height)
+        return bmi
+    }
+
     fun hello() {
         println("Hello kotlin")
     }
