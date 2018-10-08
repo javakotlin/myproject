@@ -4,6 +4,10 @@ fun main(args: Array<String>) {
 //    println("Hello kotlin")
     val h = Human(weight = 66.5f, height = 1.7f)
     println(h.bmi())
+    val score = 88
+    println(score > 60)
+    val c :Char = 'A'
+    println(c.toInt() > 60)
     /*var age = 19
     age = 20
     var weight = 66.5f
