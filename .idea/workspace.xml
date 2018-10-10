@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f252522-3141-4f1f-8a00-82cd25df0658" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/student/SchoolRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/student/SchoolRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tom/student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tom/student/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kotlin/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kotlin/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kotlin/StudentKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kotlin/StudentKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,13 +52,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="3126" />
-          <entry key="kt" value="2302" />
+          <entry key="kt" value="2798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3126" />
-          <entry key="Kotlin" value="2302" />
+          <entry key="Kotlin" value="2798" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -82,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tom/student/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1234">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="226">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
               <folding>
                 <element signature="e#968#969#0" expanded="true" />
                 <element signature="e#1007#1008#0" expanded="true" />
@@ -95,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="648">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -482,15 +484,15 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/com/tom/student/Student.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/tom/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/com/tom/Hello.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt" />
         <option value="$PROJECT_DIR$/src/main/java/com/tom/student/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tom/student/SchoolRunner.java" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="309" />
-    <option name="width" value="1930" />
+    <option name="width" value="1932" />
     <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -540,7 +542,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539153611617" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539158380373" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
@@ -562,7 +564,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SchoolRunner">
+  <component name="RunManager" selected="Kotlin.com.kotlin.StudentKt">
     <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.tom.Hello" />
       <module name="myproject_main" />
@@ -637,8 +639,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SchoolRunner" />
         <item itemvalue="Kotlin.com.kotlin.StudentKt" />
+        <item itemvalue="Application.SchoolRunner" />
         <item itemvalue="Kotlin.com.tom.HelloKt" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Kotlin.com.tom.student.StudentKt" />
@@ -668,9 +670,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="309" y="0" width="1930" height="1082" extended-state="0" />
+    <frame x="309" y="0" width="1932" height="1082" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12406417" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123931624" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -682,7 +685,7 @@
       <window_info anchor="bottom" id="Cvs" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32968238" />
-      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32858709" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32805908" />
       <window_info anchor="bottom" id="Terminal" order="6" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.30555555" />
@@ -696,8 +699,8 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" />
-      <window_info anchor="right" x="955" y="230" width="1025" height="319" id="Run" order="9" sideWeight="0.49945235" weight="0.41764706" />
-      <window_info active="true" anchor="right" id="Debug" order="10" visible="true" weight="0.45882353" />
+      <window_info active="true" anchor="right" x="955" y="230" width="1025" height="319" id="Run" order="9" sideWeight="0.49945235" visible="true" weight="0.31570512" />
+      <window_info anchor="right" id="Debug" order="10" weight="0.45882353" />
       <window_info active="true" anchor="right" id="Coverage" order="11" sideWeight="0.50054765" side_tool="true" visible="true" weight="0.43933725" />
     </layout>
   </component>
@@ -731,12 +734,6 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tom/student/Student.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -765,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tom/student/SchoolRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -781,12 +771,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tom/student/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1234">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="226">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding>
             <element signature="e#968#969#0" expanded="true" />
             <element signature="e#1007#1008#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/com/tom/Student.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
